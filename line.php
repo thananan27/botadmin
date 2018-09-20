@@ -14,7 +14,7 @@ function send_LINE($msg){
       $url = 'https://api.line.me/v2/bot/message/push';
       $data = [
 
-        'to' => 'C02a00dd43ed0bee70663a93dba3a7572',
+        'to' => 'Ucf28a74d2ae4326589ec03a323bfbff0',
         'messages' => [$messages],
       ];
       $post = json_encode($data);
